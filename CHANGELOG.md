@@ -7,6 +7,9 @@ This is a changelog for Piwik platform developers. All changes for our HTTP API'
 ### Breaking Changes
 * The method `Dimension::getId()` has been set as `final`. It is not allowed to overwrite this method.
 
+### Deprecations
+* The API method `SitesManager.getSitesIdWithVisits` has been deprecated and will be removed in Piwik 3.0
+
 ## Piwik 2.14.0
 
 ### Breaking Changes
