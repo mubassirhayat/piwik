@@ -10,6 +10,9 @@ This is a changelog for Piwik platform developers. All changes for our HTTP API'
 ### Deprecations
 * The API method `SitesManager.getSitesIdWithVisits` has been deprecated and will be removed in Piwik 3.0
 
+### APIs
+* There is a new event `CronArchive.getIdSitesNotUsingTracker` that allows you to set a list of idSites that do not use the Tracker API to make sure we archive these sites if needed.
+
 ## Piwik 2.14.0
 
 ### Breaking Changes
